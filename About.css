@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+/*#7ab730*/
+.nav-border {
+  /* border: 2px solid red; */
+  font-size: 17px;
+  padding: 0px 9% !important;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+}
+.logo {
+  height: 70px;
+  width: 80px;
+}
+.nav-border a:hover {
+  color: #000 !important ;
+  text-decoration: underline !important ;
+}
+.nav-border a:active {
+  color: #000 !important ;
+  text-decoration: underline !important ;
+}
+.img {
+  width: 900px;
+  height: 600px;
+}
+.box {
+  /* border: 2px solid red; */
+  width: 100%;
+  margin: auto;
+}
+.img1 {
+  height: 7rem;
+  width: 7rem;
+}
+.format {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.set-img{
+    width: 15% !important;
+    margin: 15px 25px;
+    position: relative;
+    top: 20px;
+}
+@media screen and (max-width: 768px) and (min-width: 274px) {
+    .set-img{
+        width: 25% !important;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .set-img{
+        width: 20% !important;
+        margin: 20px auto;
+        top: 50px;
+    }
+}
+.box-img {
+  display: flex;
+  justify-content: space-between;
+}
+#footer {
+  /* border: 2px solid red; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/b1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+.info {
+  /* border: 2px solid black; */
+  margin: 10px;
+  padding: 5px;
+  color: white;
+}
+.info p {
+  margin: 5px;
+}
+.info div {
+  width: 100%;
+  margin: auto;
+}
+.icon {
+  font-size: 25px;
+  padding: 5px;
+  position: relative;
+  bottom: -10px;
+}
+.info li:hover {
+  color: #7ab730;
+  cursor: pointer;
+}
+.info .icon:hover,
+.text-hover:hover {
+  color: #7ab730;
+  cursor: pointer;
+}
+.info-set p {
+  margin: -2px 0px !important;
+}
+
+@media screen and (max-width: 768px) and (min-width: 441px) {
+  .box-img {
+    display: grid !important;
+    grid-template-columns: 3fr 2fr;
+  }
+}
+@media screen and (max-width: 385px) {
+  .box-img {
+    display: grid !important;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .info-set {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+}
